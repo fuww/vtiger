@@ -33,7 +33,7 @@ RUN { \
 
 WORKDIR /var/www/html
 
-RUN curl -o vtigercrm.tar.gz -SL https://sourceforge.net/projects/vtigercrm/files/vtiger%20CRM%207.0.1/Core%20Product/vtigercrm7.0.1.tar \
+RUN curl -o vtigercrm.tar.gz -SL https://sourceforge.net/projects/vtigercrm/files/vtiger%20CRM%207.0.1/Core%20Product/vtigercrm7.0.1.tar.gz \
     && tar -xzf vtigercrm.tar.gz \
     && rm vtigercrm.tar.gz \
     && chmod -R 775 vtigercrm \
